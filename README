@@ -1,0 +1,7 @@
+list
+1. HBase water Data table Schema:
+disable 'waterData'
+drop 'waterData'
+create 'waterData', 'data', 'tele'
+scan 'waterData'
+scan 'waterData', {COLUMNS=> ['data','tele'], LIMIT => 1, STARTROW => '1442881120000'}

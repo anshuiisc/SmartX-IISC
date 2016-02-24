@@ -1,0 +1,26 @@
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/local/smartx/apache-storm-0.10.0/lib/log4j-slf4j-impl-2.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/smartx/water/water_v0.0.1/target/smartx-water-0.0.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+SLF4J: Class path contains multiple SLF4J bindings.
+SLF4J: Found binding in [jar:file:/usr/local/smartx/apache-storm-0.10.0/lib/log4j-slf4j-impl-2.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: Found binding in [jar:file:/home/smartx/water/water_v0.0.1/target/smartx-water-0.0.1.jar!/org/slf4j/impl/StaticLoggerBinder.class]
+SLF4J: See http://www.slf4j.org/codes.html#multiple_bindings for an explanation.
+SLF4J: Actual binding is of type [org.apache.logging.slf4j.Log4jLoggerFactory]
+1496 [main] INFO  b.s.u.Utils - Using defaults.yaml from resources
+1657 [main] INFO  b.s.u.Utils - Using storm.yaml from resources
+1750 [main] INFO  b.s.u.Utils - Using defaults.yaml from resources
+1794 [main] INFO  b.s.u.Utils - Using storm.yaml from resources
+1801 [main] INFO  b.s.StormSubmitter - Generated ZooKeeper secret payload for MD5-digest: -9109026284516372824:-6302651515515908329
+1803 [main] INFO  b.s.s.a.AuthUtils - Got AutoCreds []
+1825 [main] INFO  b.s.u.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [2000] the maxSleepTimeMs [60000] the maxRetries [5]
+1839 [main] INFO  b.s.u.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [2000] the maxSleepTimeMs [60000] the maxRetries [5]
+1884 [main] INFO  b.s.u.StormBoundedExponentialBackoffRetry - The baseSleepTimeMs [2000] the maxSleepTimeMs [60000] the maxRetries [5]
+1899 [main] INFO  b.s.StormSubmitter - Uploading topology jar target/smartx-water-0.0.1.jar to assigned location: /home/smartx/storm/nimbus/inbox/stormjar-b1e1f23c-1a2c-46a6-b80b-b0eb570080bd.jar
+13538 [main] INFO  b.s.StormSubmitter - Successfully uploaded topology jar to assigned location: /home/smartx/storm/nimbus/inbox/stormjar-b1e1f23c-1a2c-46a6-b80b-b0eb570080bd.jar
+13538 [main] INFO  b.s.StormSubmitter - Submitting topology WaterTopology in distributed mode with conf {"storm.zookeeper.topology.auth.scheme":"digest","storm.zookeeper.topology.auth.payload":"-9109026284516372824:-6302651515515908329","topology.workers":1,"topology.debug":true,"topology.max.spout.pending":1}
+13966 [main] INFO  b.s.StormSubmitter - Finished submitting topology: WaterTopology
+Error: Could not find or load main class data_topology.WaterTopology
+Error: Could not find or load main class data_topology.WaterTopology
+Error: Could not find or load main class data_topology.WaterTopology
